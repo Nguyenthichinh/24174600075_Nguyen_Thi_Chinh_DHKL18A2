@@ -8,6 +8,7 @@ while True:
     else:
         n = int(n)
         break
+
 for i in range(n):
     while True:
         so = input(f"Nhap gia tri so thu {i + 1}: ")
@@ -19,4 +20,4 @@ for i in range(n):
     ds_so.append(so)
 
 tong = sum(ds_so)
-print(f"Tong cac so vua nhap: {tong}")v
+print(f"Tong cac so vua nhap: {tong}")
