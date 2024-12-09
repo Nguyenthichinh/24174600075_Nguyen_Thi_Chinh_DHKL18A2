@@ -22,6 +22,5 @@ for i in range(1, n):
 
 ds_nguyen_to.sort()
 print(ds_nguyen_to)
-# #Tính tổng các giá trị trong danh sách
 tong = sum(ds_nguyen_to)
 print(tong)
